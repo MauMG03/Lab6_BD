@@ -1,0 +1,16 @@
+INSERT INTO SubContractor(S_Lname,S_Fname,Salary) VALUES
+    ('Hernandez','Jose',2000000),
+    ('Martinez','Juan',1500000),
+    ('Gutierrez','Mario',1600000),
+    ('Pinilla','Ana',2500000),
+    ('Bermudez','Jairo',2200000),
+    ('Smith','John',2400000),
+    ('Doe','John',2000000),
+    ('Lozano','Maria',1400000),
+    ('Diaz','Diana',1850000),
+    ('Hincapie','Pedro',2300000),
+    ('Sanchez','Luis',1200000),
+    ('Medina','Pablo',200000),
+    ('Perez','Juana',1000000),
+    ('Galindo','Kevin',3000000),
+    ('Rodrigez','Hector',2500000);

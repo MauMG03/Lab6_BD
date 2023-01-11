@@ -5,7 +5,7 @@ CREATE TABLE SubContractor(
   Salary INTEGER
 );
 
- CREATE TABLE Builder(
+CREATE TABLE Builder(
    BID SERIAL PRIMARY KEY,
    B_Lname VARCHAR(100),
    B_Fname VARCHAR(100),
