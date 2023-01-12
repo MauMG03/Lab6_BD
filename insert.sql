@@ -31,3 +31,20 @@ INSERT INTO Builder(B_Lname,B_Fname,License) VALUES
     ('Orozco','Laura',7436819),
     ('Quintero','Sebastian',3619895),
     ('Vargas','Hector',1429642);
+
+INSERT INTO Neighborhood(N_Name,City) VALUES
+    ('Villa Nueva','Cali'),
+    ('El Comercio','Cali'),
+    ('Departamental','Cali'),
+    ('Santa Anita','Cali'),
+    ('La Villa','Palmira'),
+    ('El Cerro','Palmira'),
+    ('Barrancas','Cartagena'),
+    ('Poblado','Bogota'),
+    ('Bronx','Bogota'),
+    ('Ciudad Cordoba','Cali'),
+    ('Alarcon','Bogota'),
+    ('Villa del Rosario','Barranquilla'),
+    ('Andes','Bogota'),
+    ('Velez','Santa Marta'),
+    ('Terron','Cartagena');    
