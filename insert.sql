@@ -14,3 +14,20 @@ INSERT INTO SubContractor(S_Lname,S_Fname,Salary) VALUES
     ('Perez','Juana',1000000),
     ('Galindo','Kevin',3000000),
     ('Rodrigez','Hector',2500000);
+
+INSERT INTO Builder(B_Lname,B_Fname,License) VALUES
+    ('Hernandez','Pedro',1234567),
+    ('Aguilar','Sofia',8426134),
+    ('Lozano','Felipe',2279142),
+    ('Calero','Andres',5437153),
+    ('Arboleda','Gabriel',1207428),
+    ('Escobar','Henry',6279331),
+    ('Castro','Johan',3721644),
+    ('Marquez','Antonio',1900213),
+    ('Ruiz','Manuel',1432145),
+    ('Cordoba','Daniel',1525781),
+    ('Jimenez','Luis',1064632),
+    ('Martinez','John',4329105),
+    ('Orozco','Laura',7436819),
+    ('Quintero','Sebastian',3619895),
+    ('Vargas','Hector',1429642);
