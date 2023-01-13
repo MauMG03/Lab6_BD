@@ -1,36 +1,31 @@
 INSERT INTO SubContractor(S_Lname,S_Fname,Salary) VALUES
-    ('Hernandez','Jose',2000000),
-    ('Martinez','Juan',1500000),
-    ('Gutierrez','Mario',1600000),
+    ('Martinez','Juan',4200000),
+    ('Gutierrez','Mario',3500000),
     ('Pinilla','Ana',2500000),
-    ('Bermudez','Jairo',2200000),
-    ('Smith','John',2400000),
+    ('Smith','John',4200000),
     ('Doe','John',2000000),
-    ('Lozano','Maria',1400000),
+    ('Lozano','Maria',3500000),
     ('Diaz','Diana',1850000),
     ('Hincapie','Pedro',2300000),
-    ('Sanchez','Luis',1200000),
-    ('Medina','Pablo',200000),
-    ('Perez','Juana',1000000),
+    ('Medina','Pablo',400000),
+    ('Perez','Juana',32000000),
     ('Galindo','Kevin',3000000),
     ('Rodrigez','Hector',2500000);
 
 INSERT INTO Builder(B_Lname,B_Fname,License) VALUES
     ('Hernandez','Pedro',1234567),
-    ('Aguilar','Sofia',8426134),
-    ('Lozano','Felipe',2279142),
-    ('Calero','Andres',5437153),
+    ('Pascual','Andres',1429642),
+    ('Perez','Hector',1429642),
     ('Arboleda','Gabriel',1207428),
     ('Escobar','Henry',6279331),
     ('Castro','Johan',3721644),
     ('Marquez','Antonio',1900213),
+    ('Prado','Enrique',1429642),
     ('Ruiz','Manuel',1432145),
-    ('Cordoba','Daniel',1525781),
-    ('Jimenez','Luis',1064632),
-    ('Martinez','John',4329105),
+    ('Perlaza','Jose',1429642),
     ('Orozco','Laura',7436819),
     ('Quintero','Sebastian',3619895),
-    ('Vargas','Hector',1429642);
+    ('Prieto','Luis',1429642);
 
 INSERT INTO Neighborhood(N_Name,City) VALUES
     ('Villa Nueva','Cali'),
@@ -60,3 +55,21 @@ INSERT INTO HireInfo(BID,SID,HireDate) VALUES
     (7,12,'2018-01-28'),
     (8,5,'2020-08-06'),
     (4,11,'2015-10-30');
+
+INSERT INTO House(H_Name,FinishDate,Price,BID,NID) VALUES
+    ('Corben', '2021-10-07', 250000000, 4, 3),
+    ('Nova', '2025-09-11', 230000000, 1, 10),
+    ('Marcy', '2021-09-09', 490000000, 4, 3),
+    ('Welch', '2015-01-13', 395000000, 2, 3),
+    ('Prentice', '2017-05-26', 120000000, 4, 10),
+    ('Nova', '2026-11-08', 280000000, 8, 11),
+    ('Homewood', '2022-02-12', 126000000, 9, 1),
+    ('Victoria', '2015-05-23', 180000000, 6, 2),
+    ('El cañaduzal', '2027-03-11', 320000000, 7, 1),
+    ('Las consultas', '2025-12-01', 30000000, 9, 2),
+    ('Miller', '2018-12-05', 272000000, 10, 8),
+    ('Barnett', '2022-02-06', 430000000, 3, 7),
+    ('El cañaduzal', '2021-05-11', 180000000, 2, 11),
+    ('Rieder', '2015-09-04', 420000000, 3, 8),
+    ('Magdeline', '2020-11-06', 175000000, 1, 4),
+    ('Nova', '2028-04-01', 400000000, 6, 6);
