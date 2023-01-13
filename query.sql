@@ -22,3 +22,5 @@ ORDER BY "Full_Name";
 
 
 --Ejercicio 8.
+SELECT (n_name,city) FROM 
+  (SELECT * FROM(house INNER JOIN neighborhood ON house.nid = neighborhood.nid) WHERE (h_name = 'Las consultas')) AS "datos_completos";
