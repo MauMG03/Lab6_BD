@@ -25,7 +25,10 @@ INSERT INTO Builder(B_Lname,B_Fname,License) VALUES
     ('Perlaza','Jose',1429642),
     ('Orozco','Laura',7436819),
     ('Quintero','Sebastian',3619895),
-    ('Prieto','Luis',1429642);
+    ('Prieto','Luis',1429642),
+    ('Calderon','Andres',1647389),
+    ('Sanchez','Jorge',2748392),
+    ('Plaza','Ivan',2438102);
 
 INSERT INTO Neighborhood(N_Name,City) VALUES
     ('Villa Nueva','Cali'),
@@ -57,10 +60,10 @@ INSERT INTO HireInfo(BID,SID,HireDate) VALUES
     (4,11,'2015-10-30');
 
 INSERT INTO House(H_Name,FinishDate,Price,BID,NID) VALUES
-    ('Corben', '2021-10-07', 250000000, 4, 3),
+    ('Corben', '2024-10-07', 250000000, 4, 3),
     ('Nova', '2025-09-11', 230000000, 1, 10),
     ('Marcy', '2021-09-09', 490000000, 4, 3),
-    ('Welch', '2015-01-13', 395000000, 2, 3),
+    ('Welch', '2025-01-13', 395000000, 2, 3),
     ('Prentice', '2017-05-26', 120000000, 4, 10),
     ('Nova', '2026-11-08', 280000000, 8, 11),
     ('Homewood', '2022-02-12', 126000000, 9, 1),
