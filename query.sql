@@ -13,7 +13,10 @@ ORDER BY "Full_Name";
 
 
 --Ejercicio 5.
-
+SELECT (b_lname, h_name) FROM 
+  (builder LEFT OUTER JOIN house ON builder.bid = house.bid) 
+WHERE (finishdate > CURRENT_DATE OR h_name IS NULL) 
+ORDER BY b_lname; /*Le faltan 2 registros*/
 
 --Ejercicio 6.
 SELECT CONCAT("b_lname", ' ', "b_fname") AS "Full_name" FROM 
