@@ -48,3 +48,15 @@ INSERT INTO Neighborhood(N_Name,City) VALUES
     ('Andes','Bogota'),
     ('Velez','Santa Marta'),
     ('Terron','Cartagena');    
+
+INSERT INTO HireInfo(BID,SID,HireDate) VALUES
+    (1,2,'2016-04-21'),
+    (11,4,'2016-05-12'),
+    (8,1,'2019-11-05'),
+    (5,6,'2020-07-28'),
+    (12,3,'2019-08-08'),
+    (6,9,'2019-03-17'),
+    (9,10,'2021-02-23'),
+    (7,12,'2018-01-28'),
+    (8,5,'2020-08-06'),
+    (4,11,'2015-10-30');
