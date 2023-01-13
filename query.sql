@@ -16,6 +16,10 @@ ORDER BY "Full_Name";
 
 
 --Ejercicio 6.
+SELECT CONCAT("b_lname", ' ', "b_fname") AS "Full_name" FROM 
+  (builder INNER JOIN house ON builder.bid = house.bid)
+WHERE (h_name = 'Nova' OR h_name = 'El cañaduzal');
+
 
 
 --Ejercicio 7.
