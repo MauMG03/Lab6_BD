@@ -5,7 +5,9 @@
 
 
 --Ejercicio 3.
-
+SELECT CONCAT("b_lname", ' ', "b_fname") AS "Full_Name" FROM 
+  (SELECT * FROM (builder INNER JOIN hireinfo ON builder.bid = hireinfo.bid)) AS "datos_completos"
+ORDER BY "Full_Name";
 
 --Ejercicio 4.
 
