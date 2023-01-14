@@ -16,7 +16,7 @@ ORDER BY "Full_Name";
 SELECT (b_lname, h_name) FROM 
   (builder LEFT OUTER JOIN house ON builder.bid = house.bid) 
 WHERE (finishdate > CURRENT_DATE OR h_name IS NULL) 
-ORDER BY b_lname; /*Le faltan 2 registros*/
+ORDER BY b_lname;
 
 --Ejercicio 6.
 SELECT CONCAT("b_lname", ' ', "b_fname") AS "Full_name" FROM 
@@ -30,5 +30,6 @@ WHERE (b_lname LIKE 'P%');
 
 --Ejercicio 8.
 SELECT (n_name,city) FROM 
-  (SELECT * FROM(house INNER JOIN neighborhood ON house.nid = neighborhood.nid) WHERE (h_name = 'Las consultas')) 
-AS "datos_completos";
+  (house INNER JOIN neighborhood ON house.nid = neighborhood.nid) 
+WHERE (h_name = 'Las consultas');
+
