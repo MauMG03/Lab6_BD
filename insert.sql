@@ -57,7 +57,8 @@ INSERT INTO HireInfo(BID,SID,HireDate) VALUES
     (9,10,'2021-02-23'),
     (7,12,'2018-01-28'),
     (8,5,'2020-08-06'),
-    (4,11,'2015-10-30');
+    (4,11,'2015-10-30'),
+    (3,5,'2017-05-03');
 
 INSERT INTO House(H_Name,FinishDate,Price,BID,NID) VALUES
     ('Corben', '2024-10-07', 250000000, 4, 3),
