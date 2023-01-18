@@ -3,7 +3,6 @@ select concat(s_Fname, ' ', s_lname) as "Nombre completo"
 from subcontractor
 where salary > 3000000
 group by s_fname, s_lname 
-limit 5;
 
 --Ejercicio 2.
 select s_lname, s_Fname 
@@ -18,7 +17,6 @@ ORDER BY "Full_Name";
 --Ejercicio 4.
 select b_lname, s_lname, salary
 from subcontractor natural join hireinfo natural join builder
-limit 11;
 
 --Ejercicio 5.
 SELECT (b_lname, h_name) FROM 
