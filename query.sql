@@ -1,7 +1,7 @@
 --Ejercicio 1.
 SELECT concat(s_Fname, ' ', s_lname) AS "Nombre completo"
 FROM subcontractor
-WHERE salary > 3000000
+WHERE salary > 3000000;
 
 --Ejercicio 2.
 select s_Fname, b_Fname 
@@ -15,7 +15,7 @@ ORDER BY "Full_Name";
 
 --Ejercicio 4.
 select b_lname, s_lname, salary
-from subcontractor natural join hireinfo natural join builder
+from subcontractor natural join hireinfo natural join builder;
 
 --Ejercicio 5.
 SELECT b_lname, h_name FROM 
